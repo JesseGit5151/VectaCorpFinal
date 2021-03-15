@@ -1,0 +1,13 @@
+@mixin break($length) {
+    @media (max-width: $length) {
+        @content;
+    }
+}
+
+@mixin backImage($image, $height:100vh) {
+    background: url($image);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: $height;
+}
