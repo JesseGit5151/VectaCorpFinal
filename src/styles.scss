@@ -1,3 +1,8 @@
+@import "/src/modules/variables";
+@import "/src/modules/mixins";
+@import "/src/modules/navigation";
+
+
 body {
-    background-color: lightblue;
+    background-color: $background;
 }
